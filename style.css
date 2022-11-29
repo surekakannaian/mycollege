@@ -322,7 +322,7 @@ small{
         .about-us .about{
             
             margin-left: 10%;
-            margin-top: 8vh;
+            margin-top: 3vh;
             text-align: center;
         
         }
@@ -336,7 +336,7 @@ small{
         }
      .recruit img{
             height: 5vh;
-            margin-left: 1px;
+            margin-left: 3px;
          margin-top:5px;
         }
     .contact{
@@ -358,8 +358,13 @@ small{
     justify-content: center;
 }
 .left{
-    margin-right: 80px;
+    margin-right: 50px;
     margin-top: 35px;
 }
-
+.about button{
+    background: linear-gradient(yellow,green);
+    margin-top: 5vh;
+    height: 6vh;
+    width: 35%;
+}
 }
