@@ -311,3 +311,55 @@ small{
         }
   
 }
+
+@media only screen and (max-width:480px) {
+      .about-us img{
+            border-radius: 50%;
+            height:20vh;
+            margin-top: 5%;
+            margin-left: 2%;
+        }
+        .about-us .about{
+            
+            margin-left: 10%;
+            margin-top: 8vh;
+            text-align: center;
+        
+        }
+     form{
+            width: 85%;
+        }
+     .dis img{
+            margin-left: 50px;
+            height: 50vh;
+         margn-top:30px;
+        }
+     .recruit img{
+            height: 5vh;
+            margin-left: 1px;
+         margin-top:5px;
+        }
+    .contact{
+    margin-top: 7vh;
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 160%;
+}
+    footer{
+    height: 30vh;
+    background-image: linear-gradient(black,rgb(34, 27, 27));
+    margin-top: 30px;
+}
+small{
+    display: flex;
+    color: rgb(138, 126, 126);
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    margin-right: 80px;
+    margin-top: 35px;
+}
+
+}
